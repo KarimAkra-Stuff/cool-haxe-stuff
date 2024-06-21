@@ -9,10 +9,7 @@ import VideoSprite as MainVideoSprite;
 #else
 import vlc.MP4Sprite as MainVideoSpriteprite;
 #end
-import states.PlayState;
-import haxe.extern.EitherType;
 import flixel.util.FlxSignal;
-import haxe.io.Path;
 
 /**
  * A class used to allow video playback with any hxCodec version.

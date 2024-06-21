@@ -12,7 +12,6 @@ import vlc.MP4Handler as VideoHandler;
 #end
 #end
 import flixel.util.FlxSignal;
-import haxe.io.Path;
 
 #if VIDEOS_ALLOWED
 class Video extends VideoHandler
